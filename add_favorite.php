@@ -38,11 +38,6 @@ if($phpcms_auth) {
 
 $favorite_db = pc_base::load_model('favorite_model');
 $data = array('title'=>$title, 'url'=>$url, 'adddate'=>SYS_TIME, 'userid'=>$userid);
-//根据url判断是否已经收藏过。
-$is_exists = $favorite_db->get_one(array('url'=>$url, 'userid'=>$userid));
-if(!$is_exists) {
-	$favorite_db->insert($data);
-}
-exit(trim_script($_GET['callback']).'('.json_encode(array('status'=>1)).')');
+//fsdfasfsafsa
 
 ?>
