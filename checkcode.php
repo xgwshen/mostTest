@@ -10,7 +10,7 @@ if (isset($_GET['width']) && intval($_GET['width'])) $checkcode->width = intval(
 if ($checkcode->width <= 0) {
 	$checkcode->width = 130;
 }
-
+//ddd
 //xgw1
 $max_width = $checkcode->code_len * 28;
 $max_height = $checkcode->font_size * 2;
