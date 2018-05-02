@@ -25,5 +25,5 @@ if($checkcode->height > $max_height) $checkcode->height = $max_height;
 
 if (isset($_GET['font_color']) && trim(urldecode($_GET['font_color'])) && preg_match('/(^#[a-z0-9]{6}$)/im', trim(urldecode($_GET['font_color'])))) $checkcode->font_color = trim(urldecode($_GET['font_color']));
 if (isset($_GET['background']) && trim(urldecode($_GET['background'])) && preg_match('/(^#[a-z0-9]{6}$)/im', trim(urldecode($_GET['background'])))) $checkcode->background = trim(urldecode($_GET['background']));
-$checkcode->doimage();
+//xgw3
 $_SESSION['code']=$checkcode->get_code();
