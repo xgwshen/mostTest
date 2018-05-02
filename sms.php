@@ -16,14 +16,8 @@ if(isset($_GET['mobile']) && !empty($_GET['mobile'])) {
 } else {
 	$mobile = $_SESSION['mobile'];
 }
-$_SESSION['code'] = '';
-if(!isset($_SESSION['csms'])) {
-	$_SESSION['csms'] = 0;
-} elseif($_SESSION['csms'] > 3) {
-	exit('-1');
-}
-$_SESSION['csms'] += 1;
 
+fdsadfsafsa
 $siteid = get_siteid() ? get_siteid() : 1 ;
 $sms_setting = getcache('sms','sms');
 if(!preg_match('/^(?:13\d{9}|15[0|1|2|3|5|6|7|8|9]\d{8}|18[0|2|3|5|6|7|8|9]\d{8}|14[5|7]\d{8})$/',$mobile)) exit('mobile phone error');
