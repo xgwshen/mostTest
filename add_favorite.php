@@ -47,4 +47,12 @@ $data = array('title'=>$title, 'url'=>$url, 'adddate'=>SYS_TIME, 'userid'=>$user
  * 2.commit -m first
  * 3.commit -m second-update
  */
+
+//练习git rebase -i HEAD~2 来处理已经提交的commits中第二个是错误的 要修改的问题（写错的不是最新的提交，而是倒数第二个）
+function commit1(){
+    echo 'commit1';
+    echo '回到这个commit的地方 ，进行修改 ';
+}
+
+
 ?>
