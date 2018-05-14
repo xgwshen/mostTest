@@ -63,4 +63,8 @@ function commit1(){
 function commit2(){
     echo 'commit2';
 }
+//练习git reset --hard HEAD^ 撤销提交
+function commit3(){
+    echo 'commit3';
+}
 ?>
