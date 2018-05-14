@@ -44,7 +44,12 @@ $data = array('title'=>$title, 'url'=>$url, 'adddate'=>SYS_TIME, 'userid'=>$user
  * 分支 xgw1修改
  * 1.分支修改后，切换后你的修改将被重写，所以在切换分支前必须把修改提交(commit)或者保存（stash）起来
  *
+<<<<<<< HEAD
  * 2.commit -m first
  * 3.commit -m second-update
+=======
+ * 2.commit -m first->update
+ * 3.commit -m second
+>>>>>>> 8ec68f3... third:first-update
  */
 ?>
