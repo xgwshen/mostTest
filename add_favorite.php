@@ -82,5 +82,8 @@ function commit10(){
     echo 'commit10';
 }
 //用git rebase --onto HEAD^^ HEAD^ branch1 来撤销
-
+function commit13(){
+    echo 'commit13';
+    
+}
 ?>
