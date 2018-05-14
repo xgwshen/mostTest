@@ -45,5 +45,6 @@ $data = array('title'=>$title, 'url'=>$url, 'adddate'=>SYS_TIME, 'userid'=>$user
  * 1.分支修改后，切换后你的修改将被重写，所以在切换分支前必须把修改提交(commit)或者保存（stash）起来
  *
  * 2.commit -m first
+ * 3.commit -m second-update
  */
 ?>
