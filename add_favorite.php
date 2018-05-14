@@ -49,6 +49,12 @@ $data = array('title'=>$title, 'url'=>$url, 'adddate'=>SYS_TIME, 'userid'=>$user
  */
 
 //练习git rebase -i HEAD~2 来处理已经提交的commits中第二个是错误的 要修改的问题（写错的不是最新的提交，而是倒数第二个）
+//具体步骤 1. 在工作目录干净的情况下，执行 git rebase -i HEAD^^
+//2. 在编辑页面选择要修改的commit , 把pick 修改为 edit . 此时已经回到要修改的 commit 的状态下
+//3. 修改内容
+//4. git add . 操作
+//5. git commit --amend 替换修改
+//6. git rebase --continue 完成
 function commit1(){
     echo 'commit1';
     echo '回到这个commit的地方 ，进行修改 ';
