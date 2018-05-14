@@ -70,4 +70,10 @@ function commit3(){
 function commit7(){
     echo 'commit7';
 }
+//要撤销的不是最新的提交
+function commit8(){
+    echo  'commit8';
+
+}
+
 ?>
