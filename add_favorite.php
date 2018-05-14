@@ -70,4 +70,15 @@ function commit3(){
 function commit7(){
     echo 'commit7';
 }
+//要撤销的不是最新的提交 用git rebase -i HEAD^^的方式 删除要提交的那行 的确git log 时看不到记录了 但是会有冲突（这个小册上没说怎么处理）
+function commit8(){
+    echo  'commit8';
+
+}
+function commit9(){
+    echo 'commit9';
+}
+function commit10(){
+    echo 'commit10';
+}
 ?>
