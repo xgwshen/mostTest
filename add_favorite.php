@@ -40,4 +40,8 @@ $favorite_db = pc_base::load_model('favorite_model');
 $data = array('title'=>$title, 'url'=>$url, 'adddate'=>SYS_TIME, 'userid'=>$userid);
 //fsdfasfsafsa
 
+/**
+ * 分支 xgw1修改
+ * 1.分支修改后，在切换分支前必须把修改提交或者保存起来
+ */
 ?>
