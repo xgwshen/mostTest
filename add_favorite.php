@@ -63,8 +63,11 @@ function commit1(){
 function commit2(){
     echo 'commit2';
 }
-//练习git reset --hard HEAD^ 撤销提交
+//练习git reset --hard HEAD^ 撤销提交 撤销但不删除 commit虽然在git log 没有了 但是可以通过SHA-1编码来找到
 function commit3(){
     echo 'commit3';
+}
+function commit7(){
+    echo 'commit7';
 }
 ?>
