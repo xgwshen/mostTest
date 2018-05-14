@@ -75,5 +75,10 @@ function commit8(){
     echo  'commit8';
 
 }
-
+function commit9(){
+    echo 'commit9';
+}
+function commit10(){
+    echo 'commit10';
+}
 ?>
