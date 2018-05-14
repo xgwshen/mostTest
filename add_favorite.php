@@ -54,5 +54,7 @@ function commit1(){
     echo '回到这个commit的地方 ，进行修改 ';
 }
 
-
+function commit2(){
+    echo 'commit2';
+}
 ?>
