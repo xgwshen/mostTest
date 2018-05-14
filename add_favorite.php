@@ -46,7 +46,7 @@ $data = array('title'=>$title, 'url'=>$url, 'adddate'=>SYS_TIME, 'userid'=>$user
  * 1.分支修改后，在切换分支前必须把修改提交或者保存（stash）起来
  */
 function commit1(){
-    echo 'commit1';
+    echo 'commitsss';
 }
 
 ?>
