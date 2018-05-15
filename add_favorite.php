@@ -49,4 +49,29 @@ function commit1(){
     echo 'commit1';
 }
 
+
+//用git rebase --onto HEAD^^ HEAD^ branch1 来撤销
+function commit13(){
+    echo 'commit13';
+
+}
+function commit14(){
+    echo 'commit14';
+}
+
+function commit15(){
+    echo 'commit13';
+
+}
+//已经push到远程仓库 发现代码写错了 解决方案
+//1. push到自己的分支上 。通过删除 或修改 然后强制提交覆盖 git push origin branch1 -f
+//2. push到master上。 修改代码，做新的提交即可
+//111
+//3.git reset --hard 所有的改变都不存在了 工作目录也是空的（回到上次commit的地方）
+//4.git reset --soft 所有的改变都存在 只是之前提交的commit回退到缓存区里
+//5.git reset 【--mixed】所有的改变都存在 全部回退到工作目录中
+//git checkout -- 文件名 （修改为add时可以撤销改变的内容）
+//git stash
+//git stash -u 未被跟踪的文件也打包
+
 ?>
