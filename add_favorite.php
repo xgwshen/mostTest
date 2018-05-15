@@ -100,4 +100,5 @@ function commit15(){
 //已经push到远程仓库 发现代码写错了 解决方案
 //1. push到自己的分支上 。通过删除 或修改 然后强制提交覆盖 git push origin branch1 -f
 //2. push到master上。 修改代码，做新的提交即可
+111
 ?>
