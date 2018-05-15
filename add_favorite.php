@@ -109,4 +109,6 @@ function commit15(){
 //git stash -u 未被跟踪的文件也打包
 //untrackss
 //sssssss reflog
+//用 git reflog 查看删除分支前的一个提交SHA码 然后git checkout sha码 然后创建删除的分支 就可以找回之前删除的分支了
+
 ?>
