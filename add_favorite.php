@@ -105,4 +105,7 @@ function commit15(){
 //4.git reset --soft 所有的改变都存在 只是之前提交的commit回退到缓存区里
 //5.git reset 【--mixed】所有的改变都存在 全部回退到工作目录中
 //git checkout -- 文件名 （修改为add时可以撤销改变的内容）
+//git stash
+//git stash -u 未被跟踪的文件也打包
+//untrackss
 ?>
