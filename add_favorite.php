@@ -124,4 +124,6 @@ function commit15(){
 //未来的路 其实我是没有选择的，只是被洪流推着走。直到死。
 //生存或者死亡，这是个问题。我或许明白了它的意义。
 //一生只爱一个人 ，不过是笑话罢了
+//ide and plugin updates
+//microsoft corporation work
 ?>
